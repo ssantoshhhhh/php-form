@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Angkor&family=Bungee+Spice&family=Dosis:wght@200..800&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Iceland&family=Lobster&family=Mr+Bedfort&family=Nabla&family=Noto+Serif+Telugu:wght@100..900&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&family=Satisfy&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <div class="container">
+        <h2>User Information Form</h2>
+        <form action="page.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
